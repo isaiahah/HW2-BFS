@@ -1,7 +1,7 @@
 # Assignment 2
 Breadth-first search
 
-! [BuildStatus] (https://github.com/isaiahah/HW2-BFS/actions/workflows/test.yml/badge.svg)
+![BuildStatus](https://github.com/isaiahah/HW2-BFS/actions/workflows/test.yml/badge.svg)
 
 # Algorithm Overview
 Breadth-first search explores the nodes of a graph in order of increasing distance from the start node. It maintains this ordering by placing the discovered neighbours of each explored node into a queue, then selecting the next node by dequeing (returning the oldest discovered node added to the queue).
